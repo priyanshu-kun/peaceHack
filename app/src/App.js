@@ -21,7 +21,7 @@ function App() {
         <input 
           type="text"
           className="search"
-          placeholder="New York"
+          placeholder="eg. Haridwar"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyPress={search}
